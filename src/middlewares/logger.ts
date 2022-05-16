@@ -1,4 +1,3 @@
-import bunyan from 'bunyan';
 import { Request, Response, NextFunction, RequestHandler } from 'express';
 import * as uuid from 'uuid';
 
