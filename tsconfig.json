@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "lib": ["es6"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "target": "es6",
+    "typeRoots": ["node_modules/@types"],
+    "types": [
+      "express",
+      "node"
+    ],
+    "baseUrl": "./",
+    "outDir": "./dist",
+  }
+}
+
