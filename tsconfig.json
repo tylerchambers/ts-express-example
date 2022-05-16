@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "lib": ["es6"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "target": "es6",
+    "typeRoots": ["node_modules/@types"],
+    "types": [
+      "express",
+      "jest",
+      "node"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "Middleware/*": ["src/middleware/*"],
+      "Routes/*": ["src/routes/*"]
+    }
+  }
+}
+
