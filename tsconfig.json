@@ -4,7 +4,7 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "lib": ["es6"],
-    "module": "esnext",
+    "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": true,
     "skipLibCheck": true,
@@ -14,14 +14,10 @@
     "typeRoots": ["node_modules/@types"],
     "types": [
       "express",
-      "jest",
       "node"
     ],
     "baseUrl": "./",
-    "paths": {
-      "Middleware/*": ["src/middleware/*"],
-      "Routes/*": ["src/routes/*"]
-    }
+    "outDir": "./dist",
   }
 }
 

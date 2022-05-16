@@ -6,6 +6,5 @@
 			"emitTemplate": "{{dir}}/{{name}}.queries.ts"
 		}
 	],
-	"srcDir": "./src/db/queries",
-	"dbUrl": "postgres://postgres:password@localhost/postgres"
+	"srcDir": "./src/db/queries"
 }
