@@ -7,9 +7,9 @@ export interface IUser {
 
 export class User implements IUser {
 	constructor(
-		public email: string,
 		public id: number,
 		public username: string,
+		public email: string,
         public created: Date
 	) {}
 }
